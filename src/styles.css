@@ -1,0 +1,73 @@
+body {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: rgb(216, 194, 216);
+ }
+
+
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 33%;
+    height: 20%;
+    position: fixed;
+    bottom: -6%;
+    right: 3%;
+}
+
+.btn {
+    width: 47%;
+    height: 40%;
+}
+
+.banner-change {
+    position: fixed;
+}
+
+.dropdownItem {
+    position: fixed;
+    color: white;
+    top: 10%;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.img {
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: 100%;
+    object-fit:contain; 
+}
+
+.summons-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 columns */
+    gap: 10px;
+    padding: 10px;
+}
+
+.summon-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.summon-image {
+    width: 100%;
+    height: auto;
+    max-width: 100%; 
+    /* Adjust as needed */
+}
